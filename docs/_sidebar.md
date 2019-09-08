@@ -4,6 +4,10 @@
 * [Home](/)
 
 - **IoT Pilot Developer**
-	- [01 Inhalte](01_packlist.md)
+	- [01 Inhalte](01_Inhalte.md)
+	- [02 Schnittstellen](02_Schnittstellen.md)
+	- [03 Sensoren](03_Sensoren.md)
 - **one-connect Library**
-	- [02 Einleitung](02_oneconnect_einleitung.md)
+	- [04 Einleitung](04_Einleitung.md)
+	- [05 Setup](05_Setup.md)
+	
