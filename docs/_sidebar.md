@@ -1,7 +1,7 @@
 
 <!-- docs/_sidebar.md -->
 
-* [Home](/)
+
 
 - **IoT Pilot Developer**
 	- [01 Inhalte](01_packlist.md)
