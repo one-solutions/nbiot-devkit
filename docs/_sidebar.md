@@ -1,3 +1,6 @@
+
+<!-- docs/_sidebar.md -->
+
 * [Home](/)
 
 - **IoT Pilot Developer**
