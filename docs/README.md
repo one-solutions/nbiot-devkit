@@ -37,3 +37,6 @@ Für das Prototyping haben sich Makerskit etabliert. Diese sind jedoch für den 
 Zum Abschluss erfolgt die Arbeitsvorbereitung für die Produktion und notwendige Zertifizierungen.
 
 ![one:chameleon Entwicklungsprozess](./pics/process_oc.png) 
+
+Beim IoT Pilot Developer bekommen Sie alles, was Sie für die Entwicklung ihres Prototypen benötigen. Die Hardware ist jedoch so entwickelt worden, dass sie nach der POC Phase als industrietaugliches IoT Device in Produktion gehen kann. 
+
