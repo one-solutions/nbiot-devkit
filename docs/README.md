@@ -42,11 +42,50 @@ Beim IoT Pilot Developer bekommen Sie alles, was Sie für die Entwicklung ihres 
 
 
 # Was ist der IoT Pilot
+
+![IoT Pilot Idee](./pics/devkit.png) 
+
+Vorteile:
++ Hardware konfigurieren statt entwickeln!
++ Entwicklungszeit sparen
++ Entwicklungsprozess optimieren
+
+
+**Aufbau IoT-Pilot**
+
 ![Developer Kit](./pics/foto_devkit.png) 
 
+Das Developer Kit besteht aus einem MCU Developer Kit und dem one:chameleon Basisboard.Dieses Kit bringt alle Funktionen mit, die Sie zur Entwikclung benötigen.
+
++ J-Link Programmer
++ Debugger
++ Energiemessung
++ one:connect NB-IoT Verbindungs Library
+
+
+**Schnittstellen und Sensoren**
 
 ![Sensor Board](./pics/foto_sensorbrd.png) 
 
+Das Sensorboard bietet eine Vielzahl von unterschiedlichen Schnittstellen und Sensoren, sowie Erweiterungsmöglichkeiten. Bei der Entwicklung dieses Boards sind die Anforderungen verschiedener Branchen eingeflossen um möglichst viele Use Cases abzudecken. 
++ 6 Achsen Motion Sensor
++ Temperatur Sensor
++ Feuchtigkeits Sensor
++ Luftdruck Sensor
++ 1-Wire Schnittstelle
++ I2C Bus
++ SPI Bus
++ UART Schnittstelle
++ Analog Eingang
++ Digital Eingang
++ Pulse Counter
++ Grove Stekcer
++ Raspberry Pi Stiftleiste
++ Mangoh IoT  Expansion Card
++ Display
+
+**Vom Entwicklerboard zum  Produkt**
 
 ![Produkt](./pics/foto_product.png) 
 
+Nach der Fertigstellung Ihres IoT Projektes können wir Ihnen Ihr Iot Device als Serienprodukt bestücken. Die Bestückung erfolgt lokal in Wien. Dadurch sind wir sehr flexibel und erreichen schnelle Produktionszeiten mit ausgezeichneter Qualität.
