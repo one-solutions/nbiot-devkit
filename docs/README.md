@@ -48,5 +48,5 @@ Beim IoT Pilot Developer bekommen Sie alles, was Sie für die Entwicklung ihres 
 ![Sensor Board](./pics/foto_sensorbrd.png) 
 
 
-![Produkt](./pics/foto_product_kl.png) 
+![Produkt](./pics/foto_product.png) 
 
