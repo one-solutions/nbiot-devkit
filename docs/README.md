@@ -26,6 +26,7 @@ Das NB-IoT Developer Kit bietet eine intelligente Hardware Lösung. Mit diesem K
 
 [![Kontaktformular](./pics/kontaktformular.png)](https://www.t1.magenta.at/business/stage/index2.php#)
 
+
 # Agile IoT Projekte
 Derzeitige IoT Projekte sind aufwändig und zeitintensiv. Vor allem die Hardware Entwicklung benötigt Zeit. Wir haben uns dieser Herausforderung gestellt und den Hardware Entwicklungsprozess für IoT Projekte beschleunigt. 
 
