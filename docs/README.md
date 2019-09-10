@@ -42,9 +42,9 @@ Beim IoT Pilot Developer bekommen Sie alles, was Sie für die Entwicklung ihres 
 
 
 # Was ist der IoT Pilot
-![Developer Kit](./pics/foto_devkit.png = 500x) 
+![Developer Kit](./pics/foto_devkit.png =500x) 
 
 
-![Developer Kit](./pics/foto_sensorbrd.png = 500x) 
+![Developer Kit](./pics/foto_sensorbrd.png =500x) 
 
 
