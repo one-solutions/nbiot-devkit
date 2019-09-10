@@ -40,3 +40,11 @@ Zum Abschluss erfolgt die Arbeitsvorbereitung für die Produktion und notwendige
 
 Beim IoT Pilot Developer bekommen Sie alles, was Sie für die Entwicklung ihres Prototypen benötigen. Die Hardware ist jedoch so entwickelt worden, dass sie nach der POC Phase als industrietaugliches IoT Device in Produktion gehen kann. 
 
+
+# Was ist der IoT Pilot
+![Developer Kit](./pics/foto_devkit.png) 
+
+
+![Developer Kit](./pics/foto_sensorbrd.png) 
+
+
