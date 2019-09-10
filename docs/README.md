@@ -45,6 +45,6 @@ Beim IoT Pilot Developer bekommen Sie alles, was Sie für die Entwicklung ihres 
 ![Developer Kit](./pics/foto_devkit.png) 
 
 
-![Developer Kit](./pics/foto_sensorbrd.png) 
+![Developer Kit](./pics/foto_sensorbrd.png =70%) 
 
 
