@@ -1,7 +1,7 @@
-## IoT Pilot Developer
+# IoT Pilot Developer
 ![IoT Pilot](./pics/logo_iotpilot.png) 
 
-# Vom Pilot zum Produkt
+## Vom Pilot zum Produkt
 Das NB-IoT Developer Kit bietet eine intelligente Hardware Lösung. Mit diesem Kit ist es in kürzester Zeit möglich, das Magenta NB-IoT Netz zu testen und eine IoT Applikation zu entwickeln. Dazu stellt die Hardware mehrere Sensoren und Schnittstellen zur Verfügung. Die Hardware ist vollständig im Industriestandard designed und kann nach der Entwicklungsphase als Produkt ohne zusätzlichen Entwicklungsaufwand eingesetzt werden. Nach Abschluss der Entwicklungsphase können Sie Ihre Lösung als fertiges Produkt bestücken lassen. Die Hardware ist so entwickelt und vorzertifiziert, dass sich die Hardware durch eine weitere Bestückungsvariante vom IoT-Pilot in ein industrietaugliches Produkt wandelt. Es ist auch möglich, das Design in einem kundenspezifischen Formfaktor zu realisieren.
 
 + Ultra-Low-Power Silabs Arm Cortext M0+ Prozessor EFM32HG322F64, 64kB Flash/8kB Ram
@@ -27,7 +27,7 @@ Das NB-IoT Developer Kit bietet eine intelligente Hardware Lösung. Mit diesem K
 [![Kontaktformular](./pics/kontaktformular.png)](https://www.t1.magenta.at/business/stage/index2.php#)
 
 
-# Agile IoT Projekte
+## Agile IoT Projekte
 Derzeitige IoT Projekte sind aufwändig und zeitintensiv. Vor allem die Hardware Entwicklung benötigt Zeit. Wir haben uns dieser Herausforderung gestellt und den Hardware Entwicklungsprozess für IoT Projekte beschleunigt. 
 
 ![Hardware Entwicklungsprozess](./pics/process_hw.png) 
@@ -41,7 +41,7 @@ Zum Abschluss erfolgt die Arbeitsvorbereitung für die Produktion und notwendige
 Beim IoT Pilot Developer bekommen Sie alles, was Sie für die Entwicklung ihres Prototypen benötigen. Die Hardware ist jedoch so entwickelt worden, dass sie nach der POC Phase als industrietaugliches IoT Device in Produktion gehen kann. 
 
 
-# Was ist der IoT Pilot
+## Was ist der IoT Pilot
 
 ![IoT Pilot Idee](./pics/devkit.png) 
 
@@ -51,7 +51,7 @@ Vorteile:
 + Entwicklungsprozess optimieren
 
 
-**Aufbau IoT-Pilot**
+### Aufbau IoT-Pilot
 
 ![Developer Kit](./pics/foto_devkit.png) 
 
@@ -63,7 +63,7 @@ Das Developer Kit besteht aus einem MCU Developer Kit und dem one:chameleon Basi
 + one:connect NB-IoT Verbindungs Library
 
 
-**Schnittstellen und Sensoren**
+### Schnittstellen und Sensoren
 
 ![Sensor Board](./pics/foto_sensorbrd.png) 
 
@@ -84,7 +84,7 @@ Das Sensorboard bietet eine Vielzahl von unterschiedlichen Schnittstellen und Se
 + Mangoh IoT  Expansion Card
 + Display
 
-**Vom Entwicklerboard zum  Produkt**
+### Vom Entwicklerboard zum  Produkt
 
 ![Produkt](./pics/foto_product.png) 
 
