@@ -24,7 +24,7 @@ Das NB-IoT Developer Kit bietet eine intelligente Hardware Lösung. Mit diesem K
 + Vorbereitet für die Serienfertigung Ihres IoT-Devices
 
 
-[![Kontaktformular](./pics/kontaktformular.png)](https://www.t1.magenta.at/business/stage/index2.php#)
+[![Kontaktformular](./pics/kontaktformular.png)](https://www.magenta.at/business/iot-produkte-tarife/#neukunde)
 
 
 ## Agile IoT Projekte
