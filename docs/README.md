@@ -89,4 +89,4 @@ Das Sensorboard bietet eine Vielzahl von unterschiedlichen Schnittstellen und Se
 
 ![Produkt](./pics/foto_product.png) 
 
-Nach der Fertigstellung Ihres IoT Projektes können wir Ihnen Ihr Iot Device als Serienprodukt bestücken. Die Bestückung erfolgt lokal in Wien. Dadurch sind wir sehr flexibel und erreichen schnelle Produktionszeiten mit ausgezeichneter Qualität.
+Nach der Fertigstellung Ihres IoT Projektes können wir Ihnen Ihr IoT Device als Serienprodukt bestücken. Die Bestückung erfolgt lokal in Wien. Dadurch sind wir sehr flexibel und erreichen schnelle Produktionszeiten mit ausgezeichneter Qualität.
