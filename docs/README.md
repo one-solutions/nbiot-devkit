@@ -84,6 +84,7 @@ Das Sensorboard bietet eine Vielzahl von unterschiedlichen Schnittstellen und Se
 + Mangoh IoT  Expansion Card
 + Display
 
+
 ### Vom Entwicklerboard zum  Produkt
 
 ![Produkt](./pics/foto_product.png) 
