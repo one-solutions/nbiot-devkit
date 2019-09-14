@@ -24,7 +24,7 @@ Das NB-IoT Developer Kit bietet eine intelligente Hardware Lösung. Mit diesem K
 + Vorbereitet für die Serienfertigung Ihres IoT-Devices
 
 
-[![Kontaktformular](./pics/kontaktformular.png)](https://www.t1.magenta.at/business/stage/index2.php#)
+[![Kontaktformular](./pics/kontaktformular.png)](https://www.magenta.at/business/iot-produkte-tarife/#neukunde)
 
 
 ## Agile IoT Projekte
@@ -55,7 +55,7 @@ Vorteile:
 
 ![Developer Kit](./pics/foto_devkit.png) 
 
-Das Developer Kit besteht aus einem MCU Developer Kit und dem one:chameleon Basisboard.Dieses Kit bringt alle Funktionen mit, die Sie zur Entwikclung benötigen.
+Das Developer Kit besteht aus einem MCU Developer Kit und dem one:chameleon Basisboard. Dieses Kit bringt alle Funktionen mit, die Sie zur Entwicklung benötigen.
 
 + J-Link Programmer
 + Debugger
@@ -79,9 +79,9 @@ Das Sensorboard bietet eine Vielzahl von unterschiedlichen Schnittstellen und Se
 + Analog Eingang
 + Digital Eingang
 + Pulse Counter
-+ Grove Stekcer
++ Grove Stecker
 + Raspberry Pi Stiftleiste
-+ Mangoh IoT  Expansion Card
++ Mangoh IoT Expansion Card
 + Display
 
 
