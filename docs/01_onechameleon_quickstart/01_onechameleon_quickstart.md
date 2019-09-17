@@ -27,11 +27,11 @@ Gleich darüber befindet sich der Multplex Switch. Mit diesem können Sie unters
 
 Darunter befindet sich der Power Meter Switch. Mit diesem können Sie auswählen, ob die integrierte Energieverbrauchsemessung auch für das NB-IoT Radio Modul durchgeführt werden soll. Dies ist hilfreich, wenn Sie den Magenta IoT Solution Optimizer verwenden. Default ist I_OFF.
 
-Am oberen Rand befindet sich ein 3-poliger Stecker für 1-Wire Module. Am Rasperry PI Header steht das 1-Wier Interface ebenso zur Verfügung.
+Am oberen Rand befindet sich ein 3-poliger Stecker für 1-Wire Module. Am Rasperry PI Header steht das 1-Wire Interface ebenso zur Verfügung.
 
 Am unteren Rand steht noch ein SD-Karten Slot zur Verfügung. Dieser verwendet das SPI Interface.
 
-Für Erweiterungen wurden zwei Stecker für das [Grove System][grove] verbaut. Einmal für I2C und einmal für GPIO . Wählen sie aus einer Vielzahl von Sensoren oder Aktoren.
+Für Erweiterungen sind zwei Stecker für das [Grove System][grove] verbaut. Einmal für I2C und einmal für GPIO . Wählen sie aus einer Vielzahl von Sensoren oder Aktoren.
 
 Als Interface stehen I2C, 1-Wire, SPI, UART, GPIO und 2 Analog Eingänge zur Verfügung. Diese Interface können Sie über den Raspberry PI Header, Grove Stecker, 1-Wire Stecker oder am IoT Expansion Card Stecker verwenden.
 
