@@ -55,6 +55,7 @@ Um die UART nutzen zu können, zuerst den Multiplex Switch wie folgt einstellen.
 TXD: Port E, Pin 10
 RXD: Port E, Pin 11
 
+**Multiplex Dip Switch**  
 1=ON, 2=OFF  
 3=ON, 4=OFF  
 5=ON, 6=OFF  
@@ -77,6 +78,7 @@ MISO: Port E, Pin 11
 CLK:  Port E, Pin 12  
 CS:   Port E, Pin 13  
 
+**Multiplex Dip Switch**  
 1=OFF, 2=ON  
 3=OFF, 4=ON  
 5=OFF, 6=ON  
