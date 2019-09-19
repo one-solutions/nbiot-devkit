@@ -41,10 +41,76 @@ Bevor Sie mit der Entwicklung beginnen, verbinden sie die Antenne mit dem NB-IoT
 
 Für diverse Erweiterungen steht Ihnen ein Raspberry PI Header zur Verfügung. Die Anschlussbelegung ist teilweise multiplexed und kann über den Multiplex Switch konfiguriert werden.
 
-![Raspberry PI Header][rasperrypi]
+![Raspberry PI Header][rpi]
 
 [nbiot_wp]: https://businessblog.magenta.at/whitepaper-nb-iot "Magenta NB-IoT Whitepaper"
-[grove]: http://wiki.seeedstudio.com/Grove_System/#digital "Grove System"
+[grove]: http://wiki.seeedstudio.com/Grove_System/ "Grove System"
+
+### UART:
+
+MCU Funktion: US0 auf Position 0 im asynchrone Mode.  
+
+Um die UART nutzen zu können, zuerst den Multiplex Switch wie folgt einstellen. Damit wählen Sie zwischen UART oder SPI(USART).  
+
+TXD: Port E, Pin 10
+RXD: Port E, Pin 11
+
+**Multiplex Dip Switch**  
+1=ON, 2=OFF  
+3=ON, 4=OFF  
+5=ON, 6=OFF  
+7=ON, 8=OFF  
+
+---
+
+*Falls Sie das optional erhältliche GNSS Modul verwenden, dann wird diese UART für das GNSS Modul verwendet.*
+
+---
+
+### SPI:
+
+MCU Funktion: US0 auf Position 0 im synchrone Mode.
+
+Um die SPI Schnittstelle nutzen zu können, zuerst den Multiplex Switch wie folgt einstellen. Damit wählen Sie zwischen SPI (USART) oder UART.  
+
+MOSI: Port E, Pin 10  
+MISO: Port E, Pin 11  
+CLK:  Port E, Pin 12  
+CS:   Port E, Pin 13  
+
+**Multiplex Dip Switch**  
+1=OFF, 2=ON  
+3=OFF, 4=ON  
+5=OFF, 6=ON  
+7=OFF, 8=ON  
+
+---
+
+*Verwenden Sie die SD-Card wird die SPI Schnittstelle für die SD-Card verwendet.*
+
+---
+
+### I2C:
+MCU Funktion: I2C0 auf Position 4  
+SDA: Port C, Pin 0  
+SCL: Port C, Pin 1
+
+Der I2C Bus wird von mehreren Sensoren und Modulen auf dem Development Board verwendet. Zusätzlich steht Ihnen der I2C Bus für Erweiterungen auf dem Raspberry PI Header und Expansion Board Header zur Verfügung.  
+
+| Sensor | Typ    | I2C Adresse |
+| ------ | ------ | ------- |
+| Temperatur, Luftfeuchtigkeit, Luftdruck | [Bosch BME280][bme280] | 0x76 |
+| 6-Achsen Motion | [Bosch BMI160][bmi160] | 0x68 |
+| EEPROM | [Microchip 24CW320][e2prom] | 0x50 |
+| 1-Wire Bus Treiber | [Dallas DS2484][ds2484] | 0x18 |
+||||
 
 [o:ch_besch]: ./pics/och_sb_beschreibung.png
-[rasperrypi]: ./pics/raspberrypi.png
+[rpi]: ./pics/rpi_header.png
+[e2prom]: http://ww1.microchip.com/downloads/en/DeviceDoc/24CW16X-24CW32X-24CW64X-24CW128X-Data-Sheet-20005772B.pdf
+
+[bmi160]: https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf
+
+[bme280]: https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf
+
+[ds2484]: https://datasheets.maximintegrated.com/en/ds/DS2484.pdf
