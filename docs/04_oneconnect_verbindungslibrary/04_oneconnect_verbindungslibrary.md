@@ -116,14 +116,14 @@ Folgende one:connect Library spezifische Error Codes wurden definiert:
  | 618 |  RADIO_CONNECT_INIT_NOT_DONE_ERR | Das Radio Module wurde noch nicht Initialsiert, zu erst muss die `radio_init` Funktion aufgerufen werden. |
  | 619 |  RADIO_CONNECT_CFUN_ERR | Der Radioempfänger konnte nicht eingeschaltet werden. |
  | 620 |  RADIO_CONNECT_COPS_ERR | Der Verbindungsaufabu mit Netz ist fehlgeschlagen. |
- | 621 |  RADIO_SEND_TO_MUCH_DATA_ERR | xxx |
- | 622 |  RADIO_SEND_IN_PROGRESS_ERR | xxx |
- | 623 |  RADIO_SEND_OBSRV19_ERR | xxx |
- | 624 |  RADIO_SEND_NOT_REGISTERED_ERR | xxx |
- | 625 |  RADIO_SEND_ERR | xxx |
- | 626 |  RADIO_NETSTATS_NOT_IDLE_ERR | xxx |
- | 627 |  RADIO_NETSTATS_ERR | xxx |
- | 628 |  RADIO_SET_POWERMODE_ERR | xxx |
+ | 621 |  RADIO_SEND_TO_MUCH_DATA_ERR | Die Nachricht ist zu groß ( > 512 byte). |
+ | 622 |  RADIO_SEND_IN_PROGRESS_ERR | Der Datenversand läuft noch. |
+ | 623 |  RADIO_SEND_OBSRV19_ERR | Das Gerät ist nicht beim IoT-Gateway angemeldet. |
+ | 624 |  RADIO_SEND_NOT_REGISTERED_ERR | Das Gerät ist nicht mit den Mobilfunknetz verbunden. |
+ | 625 |  RADIO_SEND_ERR | Ein Fehler bzw. Timeout ist bei Versenden von Daten aufgetreten. |
+ | 626 |  RADIO_NETSTATS_NOT_IDLE_ERR | Das Gerät ist nicht in Idle, somit die Abfrage der Radio-Netzstatistik ist nicht möglich.  |
+ | 627 |  RADIO_NETSTATS_ERR |  Die Abfrage von der Radio-Netzstatistik ist fehlgeschlagen.  |
+ | 628 |  RADIO_SET_POWERMODE_ERR | Ein Fehler ist bei Ausführung der radio_set_power_mode Funktion aufgetreten. |
  | 629 |  RADIO_SOFT_REBOOT_ERR | Softreboot des Radio Moduls ist fehlgeschlagen. |
  | 630 |  RADIO_HARD_REBOOT_ERR | Hardreboot des Radio Moduls ist fehlgeschlagen. |
 
