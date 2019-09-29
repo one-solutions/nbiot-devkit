@@ -89,6 +89,21 @@ struct radio_config
 
 Jede Funktion außer `radio_get_rtc` und `radio_get_millis`, gibt den Wert 0 in Fall von Erfolg oder ein Error Code wenn ein Fehler aufgetreten ist. 
 
+## LWM2M Event Benachritigung
+In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gespeichert.
+
+ Code   |    Beschreibung                             
+| ------| ------------------------------------------------| 
+| 0 | Register completed |
+| 1 | Deregister completed |
+| 2 | Registration status updated |
+|3 | Object 19/0/0 observe completed |
+| 4 | Bootstrap completed |
+| 5 | 5/0/3 resource observe completed |
+| 6 | Notify the device to receive update package URL |
+| 7 | Notify the device download has been completed |
+|9 | Cancel object 19/0/0 observe |
+
 ## Error Codes
 
 Folgende one:connect Library spezifische Error Codes wurden definiert:
