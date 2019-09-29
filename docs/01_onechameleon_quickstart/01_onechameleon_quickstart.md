@@ -43,9 +43,6 @@ Für diverse Erweiterungen steht Ihnen ein Raspberry PI Header zur Verfügung. D
 
 ![Raspberry PI Header][rpi]
 
-[nbiot_wp]: https://businessblog.magenta.at/whitepaper-nb-iot "Magenta NB-IoT Whitepaper"
-[grove]: http://wiki.seeedstudio.com/Grove_System/ "Grove System"
-
 ### UART:
 
 MCU Funktion: US0 auf Position 0 im asynchrone Mode.  
@@ -107,10 +104,9 @@ Der I2C Bus wird von mehreren Sensoren und Modulen auf dem Development Board ver
 
 [o:ch_besch]: ./pics/och_sb_beschreibung.png
 [rpi]: ./pics/rpi_header.png
+[nbiot_wp]: https://businessblog.magenta.at/whitepaper-nb-iot "Magenta NB-IoT Whitepaper"
+[grove]: http://wiki.seeedstudio.com/Grove_System/ "Grove System"
 [e2prom]: http://ww1.microchip.com/downloads/en/DeviceDoc/24CW16X-24CW32X-24CW64X-24CW128X-Data-Sheet-20005772B.pdf
-
 [bmi160]: https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf
-
 [bme280]: https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME280-DS002.pdf
-
 [ds2484]: https://datasheets.maximintegrated.com/en/ds/DS2484.pdf
