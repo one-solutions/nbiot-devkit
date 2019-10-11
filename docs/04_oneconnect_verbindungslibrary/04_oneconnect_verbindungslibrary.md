@@ -1,7 +1,18 @@
 # one:connect Verbindungslibrary
 
+Die one:connect Library kann von GIT heruntergelden werden.
+
 ## Import one:connect Library in Simplicity Studio
-Um die one:connect Libary in einem Projekt verwenden zu können, muss die vorher zum Projekt hinzugefügt werden.
+Um die one:connect Libary in einem Projekt verwenden zu können, muss die vorher zum Projekt hinzugefügt werden. Dazu erstelle in der Projektstruktur einen one-connect Ordner und kopiere dort die libone-connet.a Datei und den one-connect.h Header. 
+
+![][project]
+
+Die Header-datei muss zu den Include Path im Projekt hinzugefugt werden: 
+
+![][incPic]
+
+Die libone-connet.a Datei muss als eine Library eingebunden werden, wie erfolgt:   
+
 1. Öffene Project Properties und gehe zu Settings.
 2. Wähle die Configuration für welche die Einstellungen gelten sollen.
 3. Im Tool Settings Bereich öffene den  GNU ARM C Linker Abschnitt und wähle Libraries.
@@ -97,7 +108,7 @@ In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gesp
 | 0   | Registrierung abgeschlossen                     |
 | 1   | Abmeldung abgeschlossen                         |
 | 2   | Registrierungsstatus aktualisiert               |
-| 3   | Beobachtung von Objekt 19/0/0 wurde abgeschlossen |
+| 3   | Objekt 19/0/0 wurde empfangen und wird beobachtet|
 | 4   | Bootstrap abgeschlossen                          |
 | 5   | Beobachtung von Objekt 5/0/3 wurde abgeschlossen |
 | 6   | Aktualisierungs von Paket URL verfügbar         |
@@ -143,4 +154,5 @@ Folgende one:connect Library spezifische Error Codes sind definiert:
  | 630 |  RADIO_HARD_REBOOT_ERR | Hardreboot des Radio Moduls ist fehlgeschlagen. |
 
 [addLib]: ../pics/addLib.png 
-
+[incPic]: ../pics/incPath.png 
+[project]: ../pics/project.png
