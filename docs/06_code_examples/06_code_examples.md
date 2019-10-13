@@ -1,6 +1,6 @@
 # Code Examples
 Wie man die one:connect Library in ein Projekt einbindet ist [hier][linkLib] beschrieben.
-Die ersten Schritte mit dem IoT-Piloten können [hier] durchgegangen werden.
+Die ersten Schritte mit dem IoT-Piloten können [hier][linkSteps] durchgegangen werden.
 
 
 ## Example Project
