@@ -3,7 +3,7 @@
 
 # [Home](/)
 
-## [01 Quickstart](docs/01_onechameleon_quickstart/01_onechameleon_quickstart.md)
+## [01 Quickstart](./01_onechameleon_quickstart/01_onechameleon_quickstart.md)
 
 ## [02 Entwicklungsumgebung Simplicity Studio](./02_settingup_simplicitystudio/02_settingup_simplicitystudio.md)
 
