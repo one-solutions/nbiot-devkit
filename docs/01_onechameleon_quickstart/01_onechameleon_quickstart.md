@@ -104,8 +104,6 @@ Der I2C Bus wird von mehreren Sensoren und Modulen auf dem Development Board ver
 
 ### 1-Wire:
 
-
-
 [o:ch_besch]: ./pics/och_sb_beschreibung.png
 [rpi]: ./pics/rpi_header.png
 [nbiot_wp]: https://businessblog.magenta.at/whitepaper-nb-iot "Magenta NB-IoT Whitepaper"
