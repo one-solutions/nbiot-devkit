@@ -92,7 +92,7 @@ MCU Funktion: I2C0 auf Position 4
 SDA: Port C, Pin 0  
 SCL: Port C, Pin 1
 
-Der I2C Bus wird von mehreren Sensoren und Modulen auf dem Development Board verwendet. Zusätzlich steht Ihnen der I2C Bus für Erweiterungen auf dem Raspberry PI Header und Expansion Board Header zur Verfügung.  
+Der I2C Bus wird von mehreren Sensoren und Modulen auf dem Development Board verwendet. Zusätzlich steht der I2C Bus für Erweiterungen auch auf dem Raspberry PI Header und dem Expansion Board Header zur Verfügung.  
 
 | Sensor | Typ    | I2C Adresse |
 | ------ | ------ | ------- |
@@ -101,6 +101,10 @@ Der I2C Bus wird von mehreren Sensoren und Modulen auf dem Development Board ver
 | EEPROM | [Microchip 24CW320][e2prom] | 0x50 |
 | 1-Wire Bus Treiber | [Dallas DS2484][ds2484] | 0x18 |
 ||||
+
+### 1-Wire:
+
+
 
 [o:ch_besch]: ./pics/och_sb_beschreibung.png
 [rpi]: ./pics/rpi_header.png
