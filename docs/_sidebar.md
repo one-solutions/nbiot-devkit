@@ -14,3 +14,5 @@
 ## [05 Erste Schritte](./05_first_steps/05_first_steps.md)
 
 ## [06 Code Beispiele](./06_code_examples/06_code_examples.md)
+
+## [Konformität](./documents/ce_conformitation.md)
