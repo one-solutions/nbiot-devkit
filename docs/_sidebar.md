@@ -5,9 +5,9 @@
 
 ## [01 Quickstart](./01_onechameleon_quickstart/01_onechameleon_quickstart.md)
 
-## [02 Entwicklungsumgebung Simplicity Studio](./02_settingup_simplicitystduio/02_settingup_simplicitystduio.md)
+## [02 Entwicklungsumgebung Simplicity Studio](./02_settingup_simplicitystudio/02_settingup_simplicitystudio.md)
 
-## [03 Happy Gecko Starter Kit](./03_emf32_happygecko_quickstart/03_emf32_happygecko_quickstart.md)
+## [03 Happy Gecko Starter Kit](./03_efm32_happygecko_quickstart/03_efm32_happygecko_quickstart.md)
 
 ## [04 Verbindungslibrary one:connect](./04_oneconnect_verbindungslibrary/04_oneconnect_verbindungslibrary.md)
 
