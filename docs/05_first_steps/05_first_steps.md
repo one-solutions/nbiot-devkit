@@ -48,7 +48,7 @@
 2. Das Projekt in Simplicity Studio importieren (Menu File -> Import)
 3. Das Programm auf den GeckoKit hochladen: 
 <br>
-![][runProject]
+![runProject]
 
 [selectDeviceMgmt]: ../pics/select_device_mgmt.png
 [selectReg]: ../pics/devices_devreg.png
