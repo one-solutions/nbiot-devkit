@@ -60,5 +60,5 @@
 [runProject]: ../pics/run_project.png
 
 [create1App_link]: https://magentabusiness.github.io/IoT-Quickstart/#/01_Create_first_Application
-[profileLink]: ../06_code_examples/Profile
-[exampleLink]: ../06_code_examples/ExampleLibProject
+[profileLink]: ./06_code_examples/Profile
+[exampleLink]: ./06_code_examples/ExampleLibProject
