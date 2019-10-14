@@ -47,8 +47,8 @@
 1. ExampleProject von [Github][exampleLink] herunterladen
 2. Das Projekt in Simplicity Studio importieren (Menu File -> Import)
 3. Das Programm auf den GeckoKit hochladen: 
-<br>
-![runProject]
+<br> ![][runProject]
+
 
 [selectDeviceMgmt]: ../pics/select_device_mgmt.png
 [selectReg]: ../pics/devices_devreg.png
@@ -60,5 +60,5 @@
 [runProject]: ../pics/run_project.png
 
 [create1App_link]: https://magentabusiness.github.io/IoT-Quickstart/#/01_Create_first_Application
-[profileLink]: ../06_code_examples/Profile
-[exampleLink]: ../06_code_examples/ExampleLibProject
+[profileLink]: [../06_code_examples/Profile]
+[exampleLink]: [../06_code_examples/ExampleLibProject]
