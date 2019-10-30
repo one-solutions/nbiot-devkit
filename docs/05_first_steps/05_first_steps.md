@@ -9,7 +9,7 @@
 
 ## Schritt 2 - NB-IoT Pilot Profile importieren
 
-1. Das NBIoT Profile von [Github][profileLink] herrunterladen
+1. Das NBIoT Profile von [Github][profileLink] herrunterladen (Rechts Klick + Speichern unter)
 2. Im Menu "Device Management" auswählen: <br>
     ![][selectDeviceMgmt]
 
