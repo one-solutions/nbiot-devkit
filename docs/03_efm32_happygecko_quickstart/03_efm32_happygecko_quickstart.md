@@ -27,5 +27,5 @@ Der Temperatursensor ist am Sensorboard zu verwenden, gerne gemeinsam mit Luftdr
 Verbinden mit der [one:connect Library]
 
 [SLK3400A]:./pics/Happy_Gecko_DBG.jpg
-[Installation des Silabs Simplicity Studios]:[../02_settingup_simplicitystudio/settingup_simplicitystudio.md]
-[one:connect Library]:[../04_oneconnect_verbindungslibrary]
+[Installation des Silabs Simplicity Studios]: ../02_settingup_simplicitystudio/02_settingup_simplicitystudio.md
+[one:connect Library]: ../04_oneconnect_verbindungslibrary/04_oneconnect_verbindungslibrary.md
