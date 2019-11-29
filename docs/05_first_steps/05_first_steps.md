@@ -9,7 +9,7 @@
 
 ## Schritt 2 - NB-IoT Pilot Profile importieren
 
-1. Das NBIoT Profile von [Github][profileLink] herunterladen
+1. Das NBIoT Profile von GitHub [herunterladen][profileLink] .
 2. Im Menu "Device Management" auswählen: <br>
     ![][selectDeviceMgmt]
 
@@ -44,7 +44,7 @@
 
 ## Schritt 4 - IoT Pilot Beispiel Programm herunterladen
 
-1. ExampleProject von [Github][exampleLink] herunterladen
+1. ExampleProject von GitHub [herunterladen][exampleLink].
 2. Das Projekt in Simplicity Studio importieren (Menu File -> Import)
 3. Das Programm auf den GeckoKit hochladen: 
 <br> ![][runProject]
