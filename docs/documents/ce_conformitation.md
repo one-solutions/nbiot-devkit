@@ -1,4 +1,4 @@
 # Konformitätserklärung
 
 Hiermit erklärt one:solutions Engineering GmbH, dass der Funkanlagentype NB-IoT Dev Kit der Richtline 2014/53/EU entspricht. 
-Der vollständige Text der EU-Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [Download](test.md)
+Der vollständige Text der EU-Konformitätserklärung ist unter der folgenden Internetadresse verfügbar: [Download](./documents/test.md)
