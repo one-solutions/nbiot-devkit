@@ -1,6 +1,10 @@
 FAQ
 ==========
+[1. Wie verbinde ich meinen PC mit dem IoT-Pilot?](./faq/faq?id=wie-verbinde-ich-meinen-pc-mit-dem-iot-pilot)
+[2. Wie greife ich auf die Terminalausgaben des IoT-Pilots zu?](./faq/faq?id=wie-greife-ich-auf-die-terminalausgaben-des-iot-pilots-zu)
 
+Fragen
+==========
 Wie verbinde ich meinen PC mit dem IoT-Pilot?
 ----------
 Die Entwicklungsumgebung stellt im Normalfall automatisch eine Verbindung zum Developer-Kit her.
