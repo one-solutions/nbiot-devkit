@@ -16,3 +16,5 @@
 ## [06 Code Beispiele](./06_code_examples/06_code_examples.md)
 
 ## [Konformität](./documents/ce_conformitation.md)
+
+## [FAQ](.faq/faq.md)
