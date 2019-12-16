@@ -3,7 +3,7 @@ FAQ
 
 Wie verbinde ich meinen PC mit dem IoT-Pilot?
 ----------
-Die Entwichlingsumgebung stellt im normalfall automatisch eine Verbindung zum Developer-Kit her.
+Die Entwicklungsumgebung stellt im Normalfall automatisch eine Verbindung zum Developer-Kit her.
 
 Wie greife ich auf die Terminalausgaben des IoT-Pilots zu?
 ----------
