@@ -17,5 +17,5 @@ Um die Terminalausgaben des IoT-Pilots zu sehen wird ein serielles Terminal (z.B
 "Serial" muss gewählt sein um anschließend den "COM-Port" sowie die Speed von 9600 einzutragen
 <img src="./faq/pics/puttyconfig.png" width="40%">
 
-Der "COM-Port" kann über den Geräte-Manager bestimmt werden. (<code>Geräte-Manager -> Anschlüsse(COM&LPT) -> JLink CDC UART Port (COM#)</code>)
+Der "COM-Port" kann über den Geräte-Manager bestimmt werden. (<code>Geräte-Manager -> Anschlüsse(COM&LPT) -> JLink CDC UART Port (COM<b>#</b>)</code>)
 <p><img src="./faq/pics/geraetemanagercom.png" width="20%"></p>
