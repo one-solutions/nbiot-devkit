@@ -17,4 +17,4 @@
 
 ## [Konformität](./documents/ce_conformitation.md)
 
-## [FAQ](.faq/faq.md)
+## [FAQ](./faq/faq.md)
