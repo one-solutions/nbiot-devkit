@@ -13,4 +13,4 @@ Um die Terminalausgaben des IoT-Pilots zu sehen wird ein serielles Terminal (z.B
 <img src="pics/puttyconfig.png" width="40%">
 
 Der "COM-Port" kann über den Geräte-Manager bestimmt werden. (Geräte-Manager -> Anschlüsse(COM&LPT) -> JLink CDC UART Port (COM#) )
-<p><img src="pics/geraetemanagercom.png" width="20%"></p>
+<p><img src="./faq/pics/geraetemanagercom.png" width="20%"></p>
