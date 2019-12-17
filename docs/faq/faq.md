@@ -25,9 +25,5 @@ Der "COM-Port" kann über den Geräte-Manager bestimmt werden. (<code>Geräte-Ma
 
 Warum funktioniert der SD-Card-Slot meines IoT-Piloten nicht?
 ----------
-Um die Funktionalität des Micro-SD-Card-Slots zu Gewährleisten muss der <strong>Multiplex Dip Switch</strong> wie folgt konfiguriert sein.
-<br>
-1=OFF, 2=ON<br>
-3=OFF, 4=ON<br>
-5=OFF, 6=ON<br>
-7=OFF, 8=ON<br>
+Um die Funktionalität des Micro-SD-Card-Slots zu Gewährleisten muss der <strong>Multiplex Dip Switch</strong> passend [konfiguriert](./01_onechameleon_quickstart/01_onechameleon_quickstart?id=spi) sein.
+
