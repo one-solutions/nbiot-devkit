@@ -4,7 +4,7 @@ FAQ
 <br>
 [2. Wie greife ich auf die Terminalausgaben des IoT-Pilots zu?](./faq/faq?id=wie-greife-ich-auf-die-terminalausgaben-des-iot-pilots-zu)
 <br>
-[3.Warum funktioniert der SD-Card-Slot meines IoT-Piloten nicht?](./faq/faq?id=warum-funktioniert-der-sd-card-slot-meines-iot-piloten-nicht)
+[3. Warum funktioniert der SD-Card-Slot meines IoT-Piloten nicht?](./faq/faq?id=warum-funktioniert-der-sd-card-slot-meines-iot-piloten-nicht)
 
 Fragen
 ==========
