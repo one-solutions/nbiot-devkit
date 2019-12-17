@@ -27,7 +27,7 @@ Warum funktioniert der SD-Card-Slot meines IoT-Piloten nicht?
 ----------
 Um die Funktionalität des Micro-SD-Card-Slots zu Gewährleisten muss der <strong>Multiplex Dip Switch</strong> wie folgt konfiguriert sein.
 <br>
-1=ON, 2=OFF<br>
-3=ON, 4=OFF<br>
-5=ON, 6=OFF<br>
-7=ON, 8=OFF<br>
+1=OFF, 2=ON<br>
+3=OFF, 4=ON<br>
+5=OFF, 6=ON<br>
+7=OFF, 8=ON<br>
