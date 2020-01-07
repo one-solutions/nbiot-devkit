@@ -5,6 +5,9 @@ FAQ
 [2. Wie greife ich auf die Terminalausgaben des IoT-Pilots zu?](./faq/faq?id=wie-greife-ich-auf-die-terminalausgaben-des-iot-pilots-zu)
 <br>
 [3. Warum funktioniert der SD-Card-Slot meines IoT-Piloten nicht?](./faq/faq?id=warum-funktioniert-der-sd-card-slot-meines-iot-piloten-nicht)
+<br>
+[4. Warum werden meine Breakpoints ignoriert?](./faq/faq?id=warum-werden-meine-Breakpoints-ignoriert)
+<br>
 
 Fragen
 ==========
@@ -27,3 +30,7 @@ Warum funktioniert der SD-Card-Slot meines IoT-Piloten nicht?
 ----------
 Um die Funktionalität des Micro-SD-Card-Slots zu Gewährleisten muss der <strong>Multiplex Dip Switch</strong> passend [konfiguriert](./01_onechameleon_quickstart/01_onechameleon_quickstart?id=spi) sein.
 
+Warum werden meine Breakpoints ignoriert?
+----------
+damit Simplicity Studio auf Breakpoints reagiert ist in den Projektsettings das Debug-Level anzupassen:<p>
+Dazu bitte im Simplicity Studio das Projekt laden. Unter Menü Project -> Properties -> C/C++ Build -> Settings -> im Tab Tool Settings -> Debug Settings -> den Wert "Debug Level" von "Default" auf "Maximum" ändern und bestätigen.
