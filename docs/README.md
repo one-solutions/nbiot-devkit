@@ -2,7 +2,7 @@
 
 >**Achtung!!!**</br>
 >Dieser Guide verwendet Docsify und wird NICHT richtig in Internet Explorer angezeigt.</br>
->Wenn Sie auf der rechten Seite keine Menüleiste sehen, bitte verwenden Sie einen anderen Browser z.B. Firefox.
+>Wenn Sie auf der linken Seite keine Menüleiste sehen, bitte verwenden Sie einen anderen Browser z.B. Firefox.
 
 ![IoT Pilot](./pics/logo_iotpilot.png) 
 
