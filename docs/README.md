@@ -1,8 +1,10 @@
-# IoT Pilot Developer
 
->**Achtung!!!**</br>
->Dieser Guide verwendet Docsify und wird NICHT richtig in Internet Explorer angezeigt.</br>
->Wenn Sie auf der linken Seite keine Menüleiste sehen, bitte verwenden Sie einen anderen Browser z.B. Firefox.
+
+>**Achtung!!!
+Dieser Guide wird NICHT richtig im Internet Explorer angezeigt.
+Verwenden Sie einen anderen Browser z.B. Firefox, Chrome, Safari...**
+
+# IoT Pilot Developer
 
 ![IoT Pilot](./pics/logo_iotpilot.png) 
 
