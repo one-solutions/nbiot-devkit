@@ -1,5 +1,12 @@
 # IoT Pilot Developer
+
+>**Achtung!!!**</br>
+>Dieser Guide verwendet Docsify und wird NICHT richtig in Internet Explorer angezeigt.</br>
+>Wenn Sie auf der rechten Seite keine Menüleiste sehen, bitte verwenden Sie einen anderen Browser z.B. Firefox.
+
 ![IoT Pilot](./pics/logo_iotpilot.png) 
+
+
 
 ## Vom Pilot zum Produkt
 Das NB-IoT Developer Kit bietet eine intelligente Hardware Lösung. Mit diesem Kit ist es in kürzester Zeit möglich, das Magenta NB-IoT Netz zu testen und eine IoT Applikation zu entwickeln. Dazu stellt die Hardware mehrere Sensoren und Schnittstellen zur Verfügung. Die Hardware ist vollständig im Industriestandard designed und kann nach der Entwicklungsphase als Produkt ohne zusätzlichen Entwicklungsaufwand eingesetzt werden. Nach Abschluss der Entwicklungsphase können Sie Ihre Lösung als fertiges Produkt bestücken lassen. Die Hardware ist so entwickelt und vorzertifiziert, dass sich die Hardware durch eine weitere Bestückungsvariante vom IoT-Pilot in ein industrietaugliches Produkt wandelt. Es ist auch möglich, das Design in einem kundenspezifischen Formfaktor zu realisieren.
