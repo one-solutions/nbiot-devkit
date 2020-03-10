@@ -20,10 +20,13 @@ Im Plugin wird für das ExampleProject verwendete Skalierung von BMI160 unterst�
 
 ## Download
 Die Examples können hier heruntergeladen werden.
+(Die Verwendung von v1.2.7 wird empfohlen)
+
+[ExampleProject_v1.2.7](https://github.com/one-solutions/nbiot-devkit/raw/master/docs/06_code_examples/ExampleProject_v1.2.7.zip)
 
 [ExampleProject_v1.1](https://github.com/one-solutions/nbiot-devkit/raw/master/docs/06_code_examples/ExampleProject_v1.1.zip)
 
-[ExampleProject_v1.2.7](https://github.com/one-solutions/nbiot-devkit/raw/master/docs/06_code_examples/ExampleProject_v1.2.7.zip)
+
 
 
 [linkLib]:[../04_oneconnect_verbindungslibrary]
