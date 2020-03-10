@@ -103,9 +103,9 @@ In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gesp
 ## Detailliertere Dokumentationen
 Die Verwendung der neuesten Version (v1.2.7) wird empfohlen.
 
-[v1.2.7](documentations/v1.2.7.md)
+[v1.2.7](04_oneconnect_verbindungslibrary/documentations/v1.2.7.md)
 
-[v1.1](documentations/v1.1.md)
+[v1.1](04_oneconnect_verbindungslibrary/documentations/v1.1.md)
 
 
 
