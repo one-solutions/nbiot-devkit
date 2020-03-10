@@ -99,59 +99,15 @@ In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gesp
 | 7   | Download wurde abgeschlossen                    |
 | 9   | Beobachtung von Objekt 19/0/0 wurde abgebrochen |
 
-## Funktionen
 
-| Funktion            | Parameter    | Beschreibung                                     |
-| --------------------| -------------| -------------------------------------------------|
-| `radio_init`        | *config - Pointer zu `radio_config_t` Struktur | Diese Funktion führt die Initalisierung aus. Dazu zählt u.a. die Initialisierung des Radio Moduls und des LEUART. |
-| `radio_connect`     | *config - Pointer zu `radio_config_t` Struktur | Diese Funktion baut die Netzverbindung mit Mobilfunk und dem IoT-Gateway auf. |
-| `radio_send`        | mode - Sendemodus</br>*data - Pointer zu Pufferspeicher mit der Nachricht in binären Form, </br>len - Größe des Pufferspeichers| Diese Funktion ermöglicht das versenden von Nachrichten an das IoT-Gateway. </br>Folgende Sendemodi stehen zur Verfügung: </br> NACK - keine Empfangsbestätigung,</br>NACK_RELEASE - keine Empfangsbestätigung und RELEASE von Netz</br>NACK_RELEASE_AFTER_REPLY - keine Empfangsbestätigung und RELEASE nach Transportprotokollrückmeldung </br>ACK - Empfangsbestätigung für die Nachricht</br>ACK_RELEASE_AFTER_REPLY - Empfangsbestätigung für die Nachricht und RELEASE nach Transportprotokollrückmeldung |
-| `radio_get_netstats`| keine  | Diese Funktion fragt die Netzstatistik des Radio-Moduls ab. Das Ergebnis wird in der `radio_stats` Struktur gespeichert. |
-| `radio_synchtime`   | keine| Diese Funktion synchronisiert die Zeit der RTC mit dem IoT-Gateway. Die Antwort des IoT-Gateways ist die aktuelle Uhrzeit als Unix Epoche in Sekunden.  |
-| `radio_get_rtc`     | keine| Diese Funktion ermöglicht die aktuelle Systemzeit des Geräts abzufragen. |
-| `radio_get_millis`  | keine | Diese Funktion ermöglicht die Millisekunden seit Prozessorstart abzufragen. |
-| `radio_set_power_mode` | *config - Pointer zu `radio_config_t` Struktur | Diese Funktion ermöglicht den PSM Modus ein / aus-zuschalten. Wenn der PSM  in radio_config definiert wurde, dann wird der PSM auf den Radio Modul aktiviert. Andersfalls wird das PSM deaktiviert. |
-| `radio_reboot`      | mode - reboot Modus | Diese Funktion ermöglicht ein Reboot des Radio Moduls durchzuführen. Grundsätzlich gibt es zwei Reboot-Methoden, Softreboot und Hardreboot. Beim Softreboot wird das Radio Module über ein AT Commando rebootet und beim Hardreboot wird es über eine GPIO Leitung rebootet. Insgesamt sind folgende Reboot Modi verfügabr: </br>   SOFT_NO_RECONNECT - Softreboot ohne erneuten Verbindung mit Netz, </br> SOFT_WITH_RECONNECT - Softreboot mit erneuten Verbindung mit Netz,</br> HARD_NO_RECONNECT - Hardreboot ohne erneuten Verbindung mit Netz,</br> HARD_WITH_RECONNECT - Hardreboot mit erneuten Verbindung mit Netz |
+## Detailliertere Dokumentationen
+Die Verwendung der neuesten Version (v1.2.7) wird empfohlen.
 
-Jede Funktion außer `radio_get_rtc` und `radio_get_millis` gibt den Wert 0 im Erfolgsfall oder den Error Code beim Auftreten eines Fehlers retour. 
+[v1.2.7](documentations/v1.2.7.md)
 
-## Error Codes
+[v1.1](documentations/v1.1.md)
 
-Folgende one:connect Library spezifische Error Codes sind definiert:
 
-| Code            | Name    | Beschreibung                                     |
-| --------------------| -------------| -------------------------------------------------|
-| 600 | RADIO_INIT_BAUDRATE_ERR | Die Konfiguration der Baudrate ist fehlgeschlagen. |
- | 601 |  RADIO_INIT_CFUN_ERR | Ein Fehler bzw. Timeout ist bei der Ein/Aus-Schaltung des Radioempfängers während der Initialisierung aufgetreten. |
- | 602 |  RADIO_INIT_NCONFIG_ERR | Die Konfiguration des Radio Moduls ist fehlgeschlagen. |
- | 603 |  RADIO_INIT_REBOOT_ERR | Ein Fehler bzw. Timeout ist beim Radio Modul reboot aufgetreten. |
- | 604 |  RADIO_INIT_NCDP_ERR | Die Konfiguration des IoT-Gateway Zugangs ist fehlgeschlagen. |
- | 605 |  RADIO_INIT_QREGSWT_ERR | Die Konfiguration des IoT-Gateway Registrierungsmodus ist fehlgeschlagen. |
- | 606 |  RADIO_INIT_DRX_MODE_ERR | Die Konfiguration des DRX Modus ist fehlgeschlagen.  |
- | 607 |  RADIO_INIT_PSM_MODE_ERR | Die Konfiguration des PSM Modus ist fehlgeschlagen. |
- | 608 |  RADIO_INIT_CMEE_ERR | Die Konfiguration des Error Modus des Radio Moduls ist fehlgeschlagen. |
- | 609 |  RADIO_INIT_CEREG_ERR | Das Ausführen des AT+CEREG Kommandos ist fehlgeschlagen. |
- | 610 |  RADIO_INIT_CSCON_ERR | Die Konfiguration des Signalling Connection Status ist fehlgeschlagen. |
- | 611 |  RADIO_INIT_NNMI_ERR | Die Konfiguration der Benachrichtigung für neue Daten ist fehlgeschlagen. |
- | 612 |  RADIO_INIT_NPSMR_ERR |  Die Konfiguration des Signalling Connection Status ist fehlgeschlagen. |
- | 613 |  RADIO_INIT_CGSN_ERR | Das Ausführen von den AT+CGSN Kommandos ist fehlgeschlagen. |
- | 614 |  RADIO_INIT_NCCID_ERR | Die Abfrage von USIM ist fehlgeschlagen. |
- | 615 |  RADIO_INIT_CIMI_ERR | Die Abfrage von IMSI ist fehlgeschlagen. |
- | 616 |  RADIO_INIT_CGDCONT_ERR | Die Abfrage bzw. Konfiguration von APN ist fehlgeschlagen. |
- | 617 |  RADIO_INIT_ENCRYPTION_MODE_ERR | Die Konfiguration von Verschlüsselung ist fehlgeschlagen. |
- | 618 |  RADIO_CONNECT_INIT_NOT_DONE_ERR | Das Radio Module wurde noch nicht Initialsiert, zu erst muss die `radio_init` Funktion aufgerufen werden. |
- | 619 |  RADIO_CONNECT_CFUN_ERR | Der Radioempfänger konnte nicht eingeschaltet werden. |
- | 620 |  RADIO_CONNECT_COPS_ERR | Der Verbindungsaufbau mit dem Netz ist fehlgeschlagen. |
- | 621 |  RADIO_SEND_TO_MUCH_DATA_ERR | Die Nachricht ist zu groß ( > 512 byte). |
- | 622 |  RADIO_SEND_IN_PROGRESS_ERR | Der Datenversand läuft noch. |
- | 623 |  RADIO_SEND_OBSRV19_ERR | Das Gerät ist nicht beim IoT-Gateway angemeldet. |
- | 624 |  RADIO_SEND_NOT_REGISTERED_ERR | Das Gerät ist nicht mit den Mobilfunknetz verbunden. |
- | 625 |  RADIO_SEND_ERR | Ein Fehler bzw. Timeout ist bei Versenden von Daten aufgetreten. |
- | 626 |  RADIO_NETSTATS_NOT_IDLE_ERR | Das Gerät ist nicht in Idle, somit die Abfrage der Radio-Netzstatistik ist nicht möglich.  |
- | 627 |  RADIO_NETSTATS_ERR |  Die Abfrage von der Radio-Netzstatistik ist fehlgeschlagen.  |
- | 628 |  RADIO_SET_POWERMODE_ERR | Ein Fehler ist bei Ausführung der radio_set_power_mode Funktion aufgetreten. |
- | 629 |  RADIO_SOFT_REBOOT_ERR | Softreboot des Radio Moduls ist fehlgeschlagen. |
- | 630 |  RADIO_HARD_REBOOT_ERR | Hardreboot des Radio Moduls ist fehlgeschlagen. |
 
 [addLib]: ../pics/addLib.png 
 [incPic]: ../pics/incPath.png 
