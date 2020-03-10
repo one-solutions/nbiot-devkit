@@ -87,7 +87,7 @@ struct radio_config
 ## LWM2M Event Benachrichtigung
 In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gespeichert.
 
- Code |  Benachritigung                             
+| Code |  Benachrichtigung                             
 | ----| ------------------------------------------------| 
 | 0   | Registrierung abgeschlossen                     |
 | 1   | Abmeldung abgeschlossen                         |
