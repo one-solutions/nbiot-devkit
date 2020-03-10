@@ -1,1 +1,53 @@
+Changes in one-connect interface, v1.2.7:
+--------------------------------------------	
+- add enums:
+	radio_netreg
+	lwm2m_msg_status
+	lwm2m_event_report
+	psm_status
+	signalling_conn_status
+	
+-Add new notification mode:
+	add NOTIFY_CSCON	
+	
+- Consolidated error codes and changes in enum error_codes:
+	-> add error codes: RADIO_SET_PSK_ERR, RADIO_PARAM_LEN_ERR, RADIO_ATCMD_ERR, RADIO_SEND_INVALID_PARAM_ERR, RADIO_ATCMD_TMOUT_ERR
+	-> replace error codes: 
+			RADIO_INIT_QREGSWT_ERR with RADIO_ATCMD_TMOUT_ERR
+			RADIO_INIT_NPSMR_ERR and RADIO_INIT_PSM_MODE_ERR with RADIO_SET_POWERMODE_ERR
+			RADIO_INIT_CMEE_ERR, RADIO_INIT_CEREG_ERR, RADIO_INIT_NNMI_ERR, RADIO_INIT_CSCON_ERR, with RADIO_ATCMD_ERR
+			RADIO_HARD_REBOOT_ERR, RADIO_SOFT_REBOOT_ERR, RADIO_INIT_REBOOT_ERR with RADIO_REBOOT_ERR, 
+			RADIO_INIT_CFUN_ERR and RADIO_CONNECT_CFUN_ERR with RADIO_CFUN_ERR, 
+			RADIO_INIT_QSECSWT_ERR and RADIO_INIT_ENCRYPTION_MODE_ERR with RADIO_SET_ENCRYPTION_ERR
+ 	-> rename RADIO_INIT_NCDP_ERR to RADIO_SET_ENDPOINT_ERR, 
+			  RADIO_INIT_NCONFIG_ERR to RADIO_SET_NCONFIG_ERR, 
+			  RADIO_INIT_CGSN_ERR to RADIO_GET_IMEI_ERR, 
+			  RADIO_INIT_NCCID_ERR to RADIO_GET_SIMID_ERR, 
+			  RADIO_INIT_CIMI_ERR to RADIO_GET_IMSI_ERR, 
+			  RADIO_CHANGE_APN_ERR to RADIO_SET_APN_ERR, 
+			  RADIO_INIT_CGDCONT_ERR to RADIO_GET_APN_ERR, 
+			  RADIO_CONNECT_COPS_ERR to RADIO_CONNECT_ERR
+		 
+- changes in struct radio_stats:
+	-> rename Iccid to iccid
+	-> changed types of fields
+		ce_level from uint32_t to uint8_t
+		snr from uint32_t to int16_t snr
+		earfcn from uint32_t to uint16_t  
+	-> added new fields
+		uint16_t pci
+		int16_t  rssi
+	
+- changes in struct radio_config:	
+	-> add defines for char arrays sizes
+	-> new functions
+		uint16_t radio_disconnect(void)
+		uint16_t radio_turnOn(void)
+		uint16_t radio_turnOff(void)
+		uint16_t radio_setNetBand(uint8_t band)
+		uint16_t radio_setChannel(uint16_t earfcn)
+		uint16_t radio_clearChannel(void)
+		uint16_t radio_platformDereg(void)
+		uint16_t radio_platformReg(void)
 
+- bugfix for radio_send
