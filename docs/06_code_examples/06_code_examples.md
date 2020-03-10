@@ -18,5 +18,13 @@ seriellen Output im Terminal angezeigt
 Im Magenta IoT-Gateway ist bereits ein Plugin für den IoT-Piloten installiert. Das Plugin parst die empfangen Daten und stellt sie in JSON Format auf dem Magenta IoT-Gateway zur Verfügung.  
 Im Plugin wird für das ExampleProject verwendete Skalierung von BMI160 unterstützt d.h. 2G für den Accelerator und 2000 DPS für das Gyroscope. Falls Werte mit anderen Einstellungen übertragen werden, können Sie mit diesem Plugin nicht richtig dargestellt werden.
 
+## Download
+Die Examples können hier heruntergeladen werden.
+
+[ExampleProject_v1.1](ExampleProject_v1.1.zip)
+
+[ExampleProject_v1.2.7](ExampleProject_v1.2.7.zip)
+
+
 [linkLib]:[../04_oneconnect_verbindungslibrary]
 [linkSteps]:[../05_first_steps]
