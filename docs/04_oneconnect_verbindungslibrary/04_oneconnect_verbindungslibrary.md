@@ -84,6 +84,21 @@ struct radio_config
 | `radio_notify`          | Im radio_notify Parameter kann eine Notify-Callback-Funktion angegeben werden.  Im notification_mode sind die  Ereignisse zuvor zu aktivieren. Das nächste Ereignis ruft die Funktion auf.      |
 | `radio_notify_new_time` | Im radio_notify_new_time Parameter kann eine Notify-Callback-Funktion für Systemzeit-Synchronisierung angegeben werden. Nachdem das Radio Module die aktuelle Uhrzeit vom IoT-Gateway empfangen hat, wird der RTC gesetzt und der Timestamp an die Callback-Funktion weitergegeben. |
 
+## LWM2M Event Benachrichtigung
+In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gespeichert.
+
+ Code |  Benachritigung                             
+| ----| ------------------------------------------------| 
+| 0   | Registrierung abgeschlossen                     |
+| 1   | Abmeldung abgeschlossen                         |
+| 2   | Registrierungsstatus aktualisiert               |
+| 3   | Objekt 19/0/0 wurde empfangen und wird beobachtet|
+| 4   | Bootstrap abgeschlossen                          |
+| 5   | Beobachtung von Objekt 5/0/3 wurde abgeschlossen |
+| 6   | Aktualisierungs von Paket URL verfügbar         |
+| 7   | Download wurde abgeschlossen                    |
+| 9   | Beobachtung von Objekt 19/0/0 wurde abgebrochen |
+
 ## Funktionen
 
 | Funktion            | Parameter    | Beschreibung                                     |
@@ -99,21 +114,6 @@ struct radio_config
 | `radio_reboot`      | mode - reboot Modus | Diese Funktion ermöglicht ein Reboot des Radio Moduls durchzuführen. Grundsätzlich gibt es zwei Reboot-Methoden, Softreboot und Hardreboot. Beim Softreboot wird das Radio Module über ein AT Commando rebootet und beim Hardreboot wird es über eine GPIO Leitung rebootet. Insgesamt sind folgende Reboot Modi verfügabr: </br>   SOFT_NO_RECONNECT - Softreboot ohne erneuten Verbindung mit Netz, </br> SOFT_WITH_RECONNECT - Softreboot mit erneuten Verbindung mit Netz,</br> HARD_NO_RECONNECT - Hardreboot ohne erneuten Verbindung mit Netz,</br> HARD_WITH_RECONNECT - Hardreboot mit erneuten Verbindung mit Netz |
 
 Jede Funktion außer `radio_get_rtc` und `radio_get_millis` gibt den Wert 0 im Erfolgsfall oder den Error Code beim Auftreten eines Fehlers retour. 
-
-## LWM2M Event Benachritigung
-In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gespeichert.
-
- Code |  Benachritigung                             
-| ----| ------------------------------------------------| 
-| 0   | Registrierung abgeschlossen                     |
-| 1   | Abmeldung abgeschlossen                         |
-| 2   | Registrierungsstatus aktualisiert               |
-| 3   | Objekt 19/0/0 wurde empfangen und wird beobachtet|
-| 4   | Bootstrap abgeschlossen                          |
-| 5   | Beobachtung von Objekt 5/0/3 wurde abgeschlossen |
-| 6   | Aktualisierungs von Paket URL verfügbar         |
-| 7   | Download wurde abgeschlossen                    |
-| 9   | Beobachtung von Objekt 19/0/0 wurde abgebrochen |
 
 ## Error Codes
 
