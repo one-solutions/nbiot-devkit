@@ -1,6 +1,6 @@
 # one:connect Verbindungslibrary
 
-Die one:connect Library kann von GIT [heruntergeladen](#Download & Detaillierte Dokumentationen) werden.
+Die one:connect Library kann von GIT [heruntergeladen](#Download) werden.
 
 ## Import one:connect Library in Simplicity Studio
 Um die one:connect Libary in einem Projekt verwenden zu können, muss die vorher zum Projekt hinzugefügt werden. Dazu erstelle in der Projektstruktur einen one-connect Ordner und kopiere dort die libone-connet.a Datei und den one-connect.h Header. 
