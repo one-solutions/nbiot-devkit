@@ -1,6 +1,6 @@
 # one:connect Verbindungslibrary
 
-Die one:connect Library kann von GIT heruntergelden werden.
+Die one:connect Library [kann von GIT heruntergeladen werden](## Download & Detaillierte Dokumentationen).
 
 ## Import one:connect Library in Simplicity Studio
 Um die one:connect Libary in einem Projekt verwenden zu können, muss die vorher zum Projekt hinzugefügt werden. Dazu erstelle in der Projektstruktur einen one-connect Ordner und kopiere dort die libone-connet.a Datei und den one-connect.h Header. 
@@ -100,7 +100,7 @@ In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gesp
 | 9   | Beobachtung von Objekt 19/0/0 wurde abgebrochen |
 
 
-## Detailliertere Dokumentationen
+## Download & Detaillierte Dokumentationen
 Die Verwendung der neuesten Version (v1.2.7) wird empfohlen.
 
 [v1.2.7](04_oneconnect_verbindungslibrary/documentations/v1.2.7.md)
