@@ -1,3 +1,7 @@
+Bugfix v1.2.7.1
+-----------------
+Fix internal timer invocation	
+
 Changes in one-connect interface, v1.2.7:
 --------------------------------------------	
 - add enums:

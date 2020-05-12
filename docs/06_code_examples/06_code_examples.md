@@ -5,7 +5,7 @@ Die ersten Schritte mit dem IoT-Piloten können [hier](../05_first_steps/05_firs
 
 ## Example Project
 Im ExampleProject Ordner ist ein fertig konfiguriertes Simplicity Studio Projekt enthalten.
-Das Projekt verwendet den ARM GNU Embedded Toolchain v7.2.1 und Gecko MCU SDK v.5.8.0.0. Der ARM  Embedded Toolchain, sowie die Gecko SDK werden zusammen mit den Simplicity Studio installiert.
+Das Projekt verwendet den ARM GNU Embedded Toolchain v7.2.1 und Gecko MCU SDK v.5.8.5.0. Der ARM  Embedded Toolchain, sowie die Gecko SDK werden zusammen mit den Simplicity Studio installiert.
 Alternativ können die Sources in ein eigenes Projekt importiert werden.
 
 Im Beispielprojekt werden die auf den IoT Piloten verfügbare Sensoren angesprochen, so wie der Umgang mit der one:connect Library demonstriert. Die PB0 und PB1 Tasten auf den GeckoKit wurden folgend programmiert:  
@@ -20,11 +20,9 @@ Im Plugin wird für das ExampleProject verwendete Skalierung von BMI160 unterst�
 
 ## Download
 Die Examples können hier heruntergeladen werden.
-(Die Verwendung von v1.2.7 wird empfohlen)
 
 [ExampleProject_v1.2.7](https://github.com/one-solutions/nbiot-devkit/raw/master/docs/06_code_examples/ExampleProject_v1.2.7.zip)
 
-[ExampleProject_v1.1](https://github.com/one-solutions/nbiot-devkit/raw/master/docs/06_code_examples/ExampleProject_v1.1.zip)
 
 
 

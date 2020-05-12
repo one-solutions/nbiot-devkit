@@ -101,11 +101,12 @@ In `radio_stats_t` in `lwm2m_data_status` werden die LWM2M Benachritigungen gesp
 
 
 ## Download & Detaillierte Dokumentationen
-Die Verwendung der neuesten Version (v1.2.7) wird empfohlen.
+Die aktuelle Version der Library ist [v1.2.7.1](04_oneconnect_verbindungslibrary/documentations/v1.2.7.md).
 
-[v1.2.7](04_oneconnect_verbindungslibrary/documentations/v1.2.7.md)
-
-[v1.1](04_oneconnect_verbindungslibrary/documentations/v1.1.md)
+## Ältere Versionen
+Für die Version v1.2.7 gibt ein Hotfix, bitte verwenden Sie die neueste Version 
+[v1.2.7.1](04_oneconnect_verbindungslibrary/documentations/v1.2.7.md)
+</br>Die Version v1.1 wird nicht mehr unterstützt, bitte verwenden Sie die aktuelle Version.
 
 
 
